@@ -9,6 +9,10 @@ reg [1:0] Sel;
 
 wire [3:0] Result;
 
+initial begin
+    $dumpfile("dump.vcd");
+    $dumpvars(0, ALU_tb);
+end
 // Instantiate the ALU
 ALU uut (
     .enable(enable),
