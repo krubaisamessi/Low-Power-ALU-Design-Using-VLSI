@@ -1,3 +1,4 @@
+timescale 1ns / 1ps
 //==================================================
 // Low Power ALU Design Using VLSI
 // Operations:
